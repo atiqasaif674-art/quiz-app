@@ -1,16 +1,142 @@
-# React + Vite
+# 🧠 Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Quiz App** built with **React.js**.
+Users can answer multiple-choice questions, track their progress, and view their final score.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🧠 Multiple-choice quiz questions
+* ✅ Answer selection
+* 📊 Score tracking
+* 🔄 Restart quiz functionality
+* ⏭️ Next question functionality
+* 📈 Shows quiz progress
+* 🎨 Clean and responsive user interface
+* ⚛️ Built using reusable React components
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **CSS3**
+* **Vite**
+* **Git & GitHub**
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+quiz-app/
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── QuizCard.jsx
+│   │   ├── Question.jsx
+│   │   └── ...
+│   │
+│   ├── data/
+│   │   └── questions.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+> The exact component structure may vary depending on the implementation.
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/atiqasaif674-art/quiz-app.git
+```
+
+Go to the project directory:
+
+```bash
+cd quiz-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal.
+
+## 🎯 How It Works
+
+1. The app displays a quiz question.
+2. The user selects an answer.
+3. The selected answer is checked.
+4. The score is updated when the answer is correct.
+5. The user moves to the next question.
+6. After completing all questions, the final score is displayed.
+7. The user can restart the quiz and try again.
+
+## 📚 What I Learned
+
+While building this project, I practiced:
+
+* React components
+* `useState` hook
+* Props
+* Conditional rendering
+* Rendering lists with `.map()`
+* Event handling
+* Managing quiz state
+* Tracking scores
+* Handling user interactions
+* Component-based project structure
+* Responsive CSS
+* Git and GitHub
+
+## 🔮 Future Improvements
+
+* Add different quiz categories
+* Add difficulty levels
+* Add a countdown timer
+* Add more questions
+* Add a high-score/leaderboard system
+* Add API integration
+* Add dark mode
+* Add sound effects
+* Store scores using Local Storage
+* Add animations
+
+## 📸 Project Preview
+
+Add your project screenshot here:
+
+```text
+![Quiz App Screenshot](./public/quiz-app.png)
+```
+
+## 👩‍💻 Author
+
+**Atiqa Saif**
+
+Frontend Developer | React.js
+
+GitHub:
+https://github.com/atiqasaif674-art
+
+---
+
+⭐ If you like this project, feel free to give it a star!
